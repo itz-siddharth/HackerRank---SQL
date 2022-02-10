@@ -3,10 +3,10 @@
 
 SELECT distinct city
 FROM station
-where NOT city REGEXP '^[aeiou]';
+where city NOT REGEXP '^[aeiou]';
 
 OR
 
 SELECT distinct city
 FROM station
-where NOT city REGEXP '^[aeiou].*';
+where city NOT REGEXP '^[aeiou].*';
