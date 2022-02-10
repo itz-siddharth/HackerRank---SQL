@@ -3,7 +3,7 @@
 
 SELECT distinct city
 FROM station 
-WHERE NOT city REGEXP '[aeiou]$';
+WHERE city NOT REGEXP '[aeiou]$';
 
 
 OR
@@ -11,4 +11,4 @@ OR
 
 SELECT distinct city
 FROM station 
-WHERE NOT city REGEXP '.*[aeiou]$';
+WHERE city NOT REGEXP '.*[aeiou]$';
