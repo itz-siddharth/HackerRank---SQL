@@ -5,7 +5,7 @@ All SQL Problems from HackerRank
 
 Important Points 
 
-Regular Expression for Pattern Matching
+# Regular Expression for Pattern Matching #
 
          WHERE CITY 
               > REGEXP '^[AEIOU].*'  or '^[AEIOU]'    #starting with vowel
